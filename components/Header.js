@@ -11,7 +11,7 @@ const Logo = styled(Link)`
 `
 const StyledNav = styled.nav`
   display: flex;
-  gap: 15 px;
+  gap: 20px;
 `
 
 const Wrapper = styled.div`
