@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Featured from '@/components/Featured'
 import { mongooseConnect } from '@/lib/mongoose'
 import { Product } from '@/models/Product'
+import NewProducts from '@/components/NewProducts'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({ product }) {
@@ -12,6 +13,7 @@ export default function Home({ product }) {
     <div>
       <Header />
       <Featured product={product} />
+      <NewProducts />
     </div>
   )
 }
