@@ -51,8 +51,8 @@ export default function Featured({ product }) {
               <ButtonWrapper>
                 <ButtonLink
                   href={'/product/' + product._id}
-                  outline
-                  white
+                  outline={1}
+                  white={1}
                   size={`l`}
                 >
                   Read More
